@@ -1,4 +1,3 @@
-//Programme demandant à l'utilisateur de saisir deux entiers, puis affiche leur somme.
 #include <stdio.h>
 int main() {
     int nombre1, nombre2, somme;
