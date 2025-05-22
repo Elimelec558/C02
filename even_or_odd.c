@@ -1,10 +1,14 @@
 #include <stdio.h>
-int main(){
-int nb ;
-scanf("%d",&nb);
-int ver = nb % 2 ;
-if (ver != 0 ){
-    printf("%d est impair.",nb);
-}
-return 0;
+
+int main() {
+    int nombre;
+    // Demande à l'utilisateur de saisir un entier
+    scanf("%d", &nombre);
+    // Vérification avec l'opérateur modulo (%)
+    if (nombre % 2 == 0) {
+        printf("%d est pair.\n", nombre);
+    } else {
+        printf("%d est impair.\n", nombre);
+    }
+    return 0;
 }
