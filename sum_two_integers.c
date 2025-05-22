@@ -1,6 +1,6 @@
 //Programme demandant à l'utilisateur de saisir deux entiers, puis affiche leur somme.
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main() {
     int nombre1, nombre2, somme;
     // Demande à l'utilisateur de saisir deux entiers.
     printf("Entrez deux nombres entiers separes par un espace :\n");
@@ -8,6 +8,6 @@ int main(){
     // Calcul de la somme.
     somme = nombre1 + nombre2;
     // Affichage du résultat.
-    printf("La somme est : %d", somme);
+    printf("La somme est : %d\n", somme);
     return 0; 
 }
