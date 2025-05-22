@@ -7,6 +7,6 @@ int main() {
     // Calcul de la somme.
     somme = nombre1 + nombre2;
     // Affichage du résultat.
-    printf("La somme est : %d\n", somme);
+    printf("La somme est : %d", somme);
     return 0; 
 }
