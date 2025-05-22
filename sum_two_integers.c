@@ -2,7 +2,6 @@
 int main() {
     int nombre1, nombre2, somme;
     // Demande à l'utilisateur de saisir deux entiers.
-    printf("Entrez deux nombres entiers separes par un espace :\n");
     scanf("%d %d", &nombre1, &nombre2);
     // Calcul de la somme.
     somme = nombre1 + nombre2;
