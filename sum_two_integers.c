@@ -9,4 +9,5 @@ int main(){
     somme = nombre1 + nombre2;
     // Affichage du résultat.
     printf("La somme est : %d", somme);
+    return 0; 
 }
