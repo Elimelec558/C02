@@ -9,6 +9,6 @@ int main() {
     b = a - b;
     a = a - b;
     // Affichage du résultat
-    printf("Apres echange: a = %d, b = %d\n", a, b);
+    printf("Apres echange: a = %d, b = %d", a, b);
     return 0;
 }
