@@ -1,3 +1,4 @@
+// Lire deux nombres et les inverser sans utiliser de variable temporaire.
 #include <stdio.h>
 int main() {
     int a, b;
@@ -8,6 +9,6 @@ int main() {
     b = a - b;
     a = a - b;
     // Affichage du résultat
-    printf("Apres echange: a = %d, b = %d\n", a, b);
+    printf("Apres change: a = %d, b = %d\n", a, b);
     return 0;
 }
